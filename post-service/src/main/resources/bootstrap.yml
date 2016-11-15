@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: post-service
+  profiles:
+     active: native
+  cloud:
+    config:
+      uri: http://post-server:8888
+      fail-fast: true
