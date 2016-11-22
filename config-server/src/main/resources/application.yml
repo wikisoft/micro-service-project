@@ -1,10 +1,12 @@
 # add github location with credential 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         native:
-          search-locations: classpath:/config
+          search-locations: classpath:/shared
 #        git:
 #          uri: classpath:/config
   profiles:
@@ -12,3 +14,7 @@ spring:
 
 server:
   port: 8888
+  
+#security:
+#  user:
+#    password: password

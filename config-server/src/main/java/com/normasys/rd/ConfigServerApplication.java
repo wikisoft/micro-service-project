@@ -8,7 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-// @EnableEurekaClient
+//@EnableEurekaClient
 public class ConfigServerApplication {
 	
 	
